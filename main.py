@@ -20,8 +20,8 @@ class Fudan:
     """
     建立与复旦服务器的会话，执行登录/登出操作
     """
-    # UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0"
-    UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:16.0) Gecko/20120813 Firefox/16.0"
+    UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0"
+    # UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:16.0) Gecko/20120813 Firefox/16.0"
 
     # 初始化会话
     def __init__(self,
